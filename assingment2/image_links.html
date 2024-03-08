@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Add any CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .food-menu {
+            list-style: none;
+            padding: 0;
+        }
+        .food-menu li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website!</h1>
+        <p>Your go-to place for technology, nature, and delicious food.</p>
+        <img src="https://via.placeholder.com/400x200?text=Tech" alt="Technology">
+    </header>
+    <div class="container">
+        <section class="gallery">
+            <img src="https://via.placeholder.com/300x200?text=Nature1" alt="Nature 1">
+            <img src="https://via.placeholder.com/300x200?text=Nature2" alt="Nature 2">
+            <img src="https://via.placeholder.com/300x200?text=Nature3" alt="Nature 3">
+        </section>
+        <section class="food">
+            <h2>Menu</h2>
+            <ul class="food-menu">
+                <li><a href="https://example.com/pizza"><img src="/food7.jpg" alt="Pizza"> Pizza</a></li>
+                <li><a href="https://example.com/burger"><img src="https://via.placeholder.com/100x100?text=Burger" alt="Burger"> Burger</a></li>
+                <li><a href="https://example.com/sushi"><img src="https://via.placeholder.com/100x100?text=Sushi" alt="Sushi"> Sushi</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
